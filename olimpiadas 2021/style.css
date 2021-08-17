@@ -1,0 +1,127 @@
+.cabeçalho {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 320px;
+	width: 400px;
+}
+
+nav {
+	position:absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px; 
+}
+nav a {
+	text-transform: uppercase;
+	color:#000000;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #0A1191;
+	text-decoration: underline; 
+}
+
+.conteudo-principal {
+
+	background: linear-gradient(#FEFEFE, black);
+}
+
+.titulo-centralizado {
+	text-decoration: none;
+	text-align: center;
+	font-size: 3em;
+	margin: 0.5em 0 1em;
+}
+
+
+.imagem-esquerda {
+	width: 35%;
+	padding-left: 27px;
+}
+
+.imagem-esquerda:hover {
+	opacity: 0.6;
+}
+
+.imagem-esquerdap {
+	width: 15%;
+	padding-left: 27px;
+}
+
+.paragrafo-direita{ 
+	width: 700px;
+	font-size: 28px;
+	text-align: center;
+	float: right;
+	margin: 35px;
+}
+
+.paragrafo {
+	font-size: 28px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+
+.data-olimpica {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin: 45px;
+	color: black;
+}
+
+.quadro-imagens {
+	height: 160px;
+	width: 33%;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.quadro-imagens:hover {
+	opacity: 0.8;
+}
+
+.medalhas {
+	margin-left: 155px;
+	text-align: center;
+}
+
+.imagem-bandeiras {
+	width: 255px;
+	padding-left: 95px;
+}
+
+.quadro-medalhas {
+	height: 190px;
+	width: 24%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.iframe {
+	margin: 57px;
+	padding-left: 300px;
+}
+
+
+footer {
+	height: 100%;
+	text-align: center;
+	background: url("imgo/simbolo.jpg");
+}
+
+
+
+
+
+
