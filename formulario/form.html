@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="form-section">
+      <h1>Seja bem vindo!!</h1>
+
+      <div class="form-wrapper">
+        <form action="">
+        	<div class="input-block">
+        		<label for="Seu nome">Nome</label>
+        		<input type="text" id="Seu nome">
+        	</div>
+          <div class="input-block">
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" />
+          </div >
+          <div class="input-block">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone">
+          </div>
+          <div class="input-block">
+          	<legend>Como prefere que entramos em contato?</legend>
+                    <select>
+                        <option>Email</option>
+                        <option>Telefone</option>
+                    </select>
+          </div>
+          <div class="input-block">
+          	<label for="mensagem">Deixe sua mensagem!</label>
+            <textarea cols="70" rows="10"  id="mensagem" class="input-padrao" required></textarea>
+          </div>
+          <button type="submit" value="Enviar" class="btn-login">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+
+    <ul class="squares">
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
